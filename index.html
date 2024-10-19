@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josphat Mburu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="profile-img">
+            <img src="https://i.ibb.co/7Wn7NmS/IMG-20231019-WA0004.jpg" alt="Profile Image">
+        </div>
+        <h1>Hi, I'm Josphat Mburu</h1>
+        <p>Telecom Engineer & Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="background: url('https://i.ibb.co/k9NVC38/about-background.jpg') no-repeat center center/cover;">
+        <h2>About Me</h2>
+        <p>I'm passionate about telecom engineering and coding, building projects that make an impact. I have experience in web development, coding, and cloud platforms.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>CLING-MD</h3>
+                <p>A project to enhance developer productivity. Check it out on <a href="https://github.com/Whizmburu/Cling-Md" target="_blank">GitHub</a>.</p>
+                <p><strong>Quote 1:</strong> "Code is like humor. When you have to explain it, it’s bad."</p>
+                <p><strong>Quote 2:</strong> "First, solve the problem. Then, write the code."</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of another project.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>Cloud Platforms</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:jaysimburun@gmail.com">jaysimburun@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Whizmburu">github.com/Whizmburu</a></p>
+    </section>
+
+    <!-- Footer Contact Form -->
+    <footer>
+        <h2>Want to link with me?</h2>
+        <form action="send_mail.php" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+        <p>&copy; 2024 Josphat Mburu. Contact: +254740841168. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
